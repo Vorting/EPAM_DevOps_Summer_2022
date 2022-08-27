@@ -15,9 +15,9 @@ cd /home/$name/homework
 
 echo "step №4 filling the script"
 cat << _EOF_ > dir-01/file-2
-cat << \#!/bin/bash
-Hello $USER
-The End 
+#!/bin/bash
+echo "Hello $name!
+The End."
 _EOF_
 
 echo "step №5 make file-2 executable"
