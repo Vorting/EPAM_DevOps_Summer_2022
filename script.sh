@@ -16,4 +16,4 @@ echo "№2 creating file from vars"
 
 touch $FILE
 
-ls -la /home/$USER && ls -la /home/$USER/$NAME
+ls -la /home/$USER && ls -la ../$NAME
